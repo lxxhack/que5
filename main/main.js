@@ -41,7 +41,7 @@ class Sequence {
               max=this.input[i];
           }
       }
-      return min;
+      return max;
     // Write your code here
   }
      count() {

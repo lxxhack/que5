@@ -1,6 +1,6 @@
 module.exports = function main() {
     let sequence = new Sequence([6, 9, 15, -2, 92, 11]);
-    console.log("o) 最小值 = "+sequence.minimum()+"\no) 最大值 = "+sequence.maximum()+"\no) 元素数量 = "+sequence.count()+"\no) 平均值 = ",sequence.avg());
+    console.log("o) 最小值 = "+sequence.minimum()+"\no) 最大值 = "+sequence.maximum()+"\no) 元素数量 = "+sequence.count()+"\no) 平均值 = "+sequence.avg());
 };
 
 class Sequence {
